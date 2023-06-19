@@ -40,17 +40,32 @@ if(isset($_POST['submit'])) {
             id="username"
             placeholder="username"
           />
-          <input
+            <input
             type="submit"
             name="submit"
             class="btn"
             id="saveScoreBtn"
-            value = "save"
+            value = "Save"
+            onclick="saveHighScore(event)"
+            disabled
+          />
+            <input
+            type="submit"
+            name="submit"
+            class="btn"
+            id="playAgainBtn"
+            value = "Play Again"
+            onclick="saveHighScore(event)"
+            disabled
           />
         </form>
-        <a class="btn" href="game.html">Play Again</a>
-        <a class="btn" href="index.html">Go Home</a>
       </div>
     </div>
   </body>
+  <script>
+      username.addEventListener('keyup', () => {
+    saveScoreBtn.disabled = !username.value;
+    playAgainBtn.disabled = !username.value;
+});
+  </script>
 </html>
