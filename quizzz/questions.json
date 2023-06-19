@@ -1,0 +1,42 @@
+[
+    {
+      "question": "Apa yang dimaksud dengan JavaScript?",
+      "choice1": "Bahasa pemrograman yang digunakan untuk membuat halaman web interaktif",
+      "choice2": "Bahasa pemrograman yang digunakan untuk membuat aplikasi desktop",
+      "choice3": "Bahasa pemrograman yang digunakan untuk membuat aplikasi mobile",
+      "choice4": "Bahasa pemrograman yang digunakan untuk membuat basis data",
+      "answer": 1
+    },
+    {
+      "question": "Apa perbedaan antara variabel var, let, dan const di dalam JavaScript?",
+      "choice1": "Var tidak dapat diubah nilainya setelah dideklarasikan, let dan const dapat diubah nilainya",
+      "choice2": "Var dan let dapat dideklarasikan kembali di dalam blok yang sama, sedangkan const tidak dapat dideklarasikan kembali",
+      "choice3": "Let dan const hanya dapat digunakan di dalam blok tertentu, sedangkan var dapat digunakan di seluruh fungsi",
+      "choice4": "Semua jawaban benar",
+      "answer": 2
+    },
+    {
+      "question": "Apa perbedaan antara === dan == di dalam JavaScript?",
+      "choice1": "Tidak ada perbedaan antara keduanya",
+      "choice2": "=== hanya membandingkan nilai variabel, sedangkan == membandingkan nilai dan tipe data variabel",
+      "choice3": "Kedua operator tidak ada di dalam JavaScript",
+      "choice4": "=== membandingkan nilai dan tipe data variabel, sedangkan == hanya membandingkan nilai variabel",
+      "answer": 4
+    },
+    {
+      "question": "Apa itu operator pada JavaScript?",
+      "choice1": "Sebuah tipe data pada JavaScript",
+      "choice2": "Sebuah fungsi yang digunakan untuk memanipulasi DOM",
+      "choice3": "Sebuah perintah untuk melakukan operasi matematika pada JavaScript",
+      "choice4": "Sebuah simbol yang digunakan untuk melakukan operasi pada satu atau lebih nilai",
+      "answer": 4
+    },  
+    {
+      "question": "Apa itu variabel pada JavaScript?",
+      "choice1": "Sebuah fungsi yang digunakan untuk mengembalikan nilai",
+      "choice2": "Sebuah nilai yang dapat berubah selama program dijalankan",
+      "choice3": "Sebuah tipe data pada JavaScript",
+      "choice4": "Sebuah perintah untuk melakukan operasi matematika pada JavaScript",
+      "answer": 4
+    }
+  ]
