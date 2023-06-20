@@ -33,15 +33,5 @@ $sql = mysqli_query($conn, "SELECT * FROM `highscores` ORDER BY `score_highscore
         <a class="btn" href="index.html">Go Home</a>
     </div>
 </div>
-<script>
-    const highScoresList = document.getElementById("highScoresList");
-    const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
-
-    highScoresList.innerHTML = highScores
-        .map(score => {
-            return `<li class="high-score">${score.name} - ${score.score}</li>`;
-        })
-        .join("");
-</script>
 </body>
 </html>
