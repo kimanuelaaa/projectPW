@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $sql = "INSERT INTO anggota (nama, nim) VALUES ('$nama', '$nim')";
 
-    $sql = "SELECT * FROM `anggota` ORDER BY `nama` ASC, `nim` ASC";
+    $sql = "SELECT * FROM `anggota` ORDER BY `nama` ASC;
 }
 ?>
 
